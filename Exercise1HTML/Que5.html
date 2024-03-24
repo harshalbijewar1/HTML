@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Squares of Numbers</title>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+   
+    for (var i = 1; i <= 20; i++) {
+      
+      var square = i * i;
+      
+    
+      var paragraph = document.createElement("p");
+      
+     
+      var text = document.createTextNode(i + "<sup>2</sup> = " + square);
+      
+   
+      paragraph.appendChild(text);
+      
+      
+      document.body.appendChild(paragraph);
+    }
+  });
+</script>
+</head>
+<body>
+
+<!-- Squares of numbers will be added here -->
+
+</body>
+</html>
